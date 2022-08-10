@@ -4,7 +4,7 @@
 /*********************************************************************************/
 
 // URL de base du serveur
-const BASE_SERVEUR = 'http://localhost:8080/pwa/evaluations/ex3-solution/leila-admin/'; // Modifier au besoin
+const BASE_SERVEUR = 'http://ex3.leila.localhost:8080/'; // Modifier au besoin
 
 // Config de la BD
 const BD_HOTE = 'localhost';
