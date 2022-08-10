@@ -19,6 +19,10 @@ class UtilisateurControleur extends Controleur
         // Il n'y a rien à faire ici pour le moment.
     }
 
+    /**
+     * Tente l'ouvertir d'une connexion : si réussi, redirige vers categorie/tout 
+     * et sinon, réaffiche le formulaire de connexion avec un message d'erreur.
+     */
     public function connexion()
     {
         $erreur = false;
@@ -46,6 +50,10 @@ class UtilisateurControleur extends Controleur
         }
     }
 
+    /**
+     * Déconnecte l'utilisateur connecté et redirige vers la page d'accueil 
+     * (formulaire de connexion)
+     */
     public function deconnexion()
     {
         unset($_SESSION['utilisateur']);

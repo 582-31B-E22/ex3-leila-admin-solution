@@ -1,5 +1,5 @@
+## (Solution - Exercice #3) 
 ## Interface administrateur du site Web du restaurant Leila
 
-Application créée dans le cadriciel MiniMVC (avec Twig) développé en classe.
-
-Work in progress.
+Voir l'énoncé de l'exercice #3 distribué par Omnivox.
+Pour tester, commencer par ajuster les valeurs de configuration dans le fichier 'config/config.php'
